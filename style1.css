@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .topnav.responsive a.nav-item1{
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .nav-item1{
+      text-decoration: none;
+      color: grey;
+}
+}
+@media screen and (max-width:600px) {
+    a.nav-item1.active{
+        margin-left: 10px !important;
+    }
+    button.btn-success{
+        margin-left: 4px !important;
+    }
+    button.wallet-btn{
+        margin-left: 4px !important;
+        width:10vh;
+        height:65px
+    }
+    button.eth-btn{
+        margin-left: 4px;
+    }
+    a.nav-item1{
+        margin-left: 2px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .topnav.responsive a.nav-item1{
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .nav-item1{
+      text-decoration: none;
+      color: grey;
+}
+}
+@media screen and (max-width:800px) {
+    a.nav-item1.active{
+        margin-left: 5vh !important;
+    }
+    button.btn-success{
+        margin-left: 5vh !important;
+    }
+    button.wallet-btn{
+        margin-left: 5vh !important;
+        width:10vh;
+        height:65px
+    }
+    button.eth-btn{
+        margin-left: 5vh;
+    }
+    a.nav-item1{
+        margin-left: 2px;
+    }
+}
+.topnav .icon {
+    display: none;
+}
+.nav-item1{
+    text-decoration: none;
+    color: grey;
+    margin-left: 2em;
+    font-size: 2.2vh;
+    font-family: Arial, sans-serif;
+    float: left;
+    text-align: center;
+    margin-top: 1.6em; 
+}
+.wallet-btn{
+    background-color: transparent;
+    color:white;
+    border-color: grey;
+    border: solid grey 2px;
+    font-size: 2vh;
+    text-align: center;
+    width:20vh;
+    height: 40px;
+    margin-left: 4em;
+    border-radius: 4px;
+    margin-top: 1.3em;
+}
+.wallet-btn:hover{
+    background-color: #303231;
+    transition: 3ms;
+}
+.eth-btn{
+    background-color: transparent;
+    color:white;
+    border-color: grey;
+    border: solid grey 2px;
+    width:10vh;
+    height: 40px;
+    margin-left: 3em;
+    border-radius: 4px;
+    margin-top: 1.2em;
+}
+.txt{
+    color: white;
+}
+.sub-main{
+    display: flex;
+    margin-top: 10vh;
+    float: left;
+    margin-left: 9vh;
+}
+.card1{
+    margin-left: 5em;
+    display: flex;
+    border:solid rgb(59, 55, 55) 1px;
+    box-shadow: 4px 4px 5px rgb(16, 16, 16);
+    width:50vh;
+    padding:15px;
+}
+.card1 p{
+    color: rgb(184, 174, 174);
+    margin-left: 2em;
+    font-weight: 500;
+}
+.sub-txt{
+    font-size: 4vh;
+    color: white;
+}
+.card1 img{
+    max-height: 60%;
+    margin-top: 1em;
+}
+.main{
+    display: block;
+    margin-bottom: 38vh;
+}
+.txt{
+    color: white;
+    font-size: 7.5vh;
+    line-height: 120%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 2.6vh;
+}
+.main-title{
+    margin-left: 10%;
+    margin-top: 8vh;
+}
+@media screen and (max-width:600px)
+{
+    div.card1
+    {
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+    div.sub-main{
+        display: block;
+        margin-top: 60px;
+    }
+}
+.section{
+    display: flex;
+    float:left;
+    margin-left: 5em;
+    border: solid #181a19;
+}
+.card2{
+    margin-left: 5em;
+    width:50vh;
+    padding:15px;
+}
+.card2 p{
+    color: rgb(199, 196, 196);
+    font-weight: 500;
+}
+@media screen and (max-width:600px) {
+    .main{
+        margin-bottom: 80vh;
+    }
+    div.section{
+        display:block !important;
+    }
+    .section div.card2{
+        margin-left: 0 !important;
+    }
+}
+.box-content{
+    display: flex;
+    float: left;
+}
+.content-section{
+    margin-left: 10em;
+}
+.card3{
+    width:35em;
+    border: solid rgb(59, 55, 55) 1.8px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.section-txt{
+    color: white;
+}
+.read-btn{
+    background-color: transparent;
+    color:white;
+    border-color: grey;
+    border: solid grey 2px;
+    font-size: 2vh;
+    text-align: center;
+    width:15vh;
+    height: 40px;
+    margin-left: 1em;
+    border-radius: 4px;
+    margin-top: 1.3em;
+}
+.read-btn:hover{
+    background-color: #303231;
+    transition: 3ms;
+}
+@media screen and (max-width:600px)
+{
+    div.content-section{
+        margin-left: 6em !important;
+    }
+    .content-section div.box-content{
+        display: block;
+    }
+    div.box-content div.card3{
+        margin-top: 2em;
+        margin-left: 0 !important;
+        width: 20em;
+    }
+    div.content-section{
+        margin-bottom: 45em !important;
+    }
+}
+.link-logos{
+    float: left;
+    justify-content: center;
+    margin-left: 35em;
+}
+.link-logos img{
+    margin-left: 2em;
+}
+.terms{
+    display: flex;
+    margin-top: 5em;
+    margin-left: 35em;
+}
+.term-txt{
+    color: #565857;
+    font-weight: 500;
+    line-height: 5%;
+    margin-left: 2em;
+}
+@media screen and (max-width:600px)
+{
+    div.footer{
+        height:20em !important;
+    }
+    .footer div.link-logos{
+        display: flex !important;
+        margin-left: 2em;
+    }
+    .footer div.terms{
+        margin-left: 1em;
+        display:block;
+        text-align: center;
+    }
+}
+.head-txt{
+    display:flex;
+}
+.main-logo{
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+.eth-logo{
+    height: 5vh;
+    margin-left: .5em;
+    margin-top: .5em;
+}
+.first-section{
+    display: flex;
+}
+.card4{
+    border: solid rgb(108, 105, 105) 1px;
+    margin-left: 3em;
+    width: 40em;
+}
+.txt1{
+    color: white;
+    font-weight: 500;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.right-left{
+    color: #ababab;
+    font-weight: 500;
+    margin-left: 1em;
+}
+.box-text{
+    margin-left: 3em;
+    margin-top: 2em;
+}
+@media screen and (max-width:600px)
+{
+    .first-box div.first-section{
+        display: block !important;
+    }
+    .first-section div.card4{
+        width:25em;
+        margin-top: 2em;
+    }
+}
+
+.symbol{
+    display: flex;
+    float: left;
+}
+.symbol p{
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+.main-text p{
+    color:rgb(159, 156, 156);
+}
+@media screen and (max-width:600px){
+    .second-box div.first-section{
+        display: block !important;
+    }
+    .second-box div.first-section div.second-card{
+        width:20em !important;
+    }
+    .second-card div.first-content div.right-left{
+        display: block !important;
+    }
+    .second-card div.first-content div.right-left img{
+        height:20vh;
+        margin-left: 5em !important;
+    }
+}
+.box-head{
+    display:flex;
+    float: left;
+}
+.box-head p{
+    color: white;
+    font-weight: 500;
+    padding-top: 2.5vh;
+    padding-left: 2vh;
+}
+.heading{
+    color: rgb(154, 154, 154);
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.table-head{
+    display: flex;
+    float: left;
+}
+.table-txt{
+    color: white;
+}
+.eth-content{
+    display: flex;
+    float: left;
+}
+.fourth-box{
+    border: solid rgb(156, 156, 156) 1px;
+    margin: 20vh;
+    margin-left: 6vh;
+}
+/* from here */
+@media screen and (max-width:600px)
+{
+    .fourth-box div.box-head{
+        display: none;
+    }
+    .fourth-box{
+        border: none;
+        height: 180vh !important;
+        margin-left: 8vh !important;
+        margin-top: 0 !important;
+    }
+    .fourth-box hr{
+        display: none;
+    }
+    .fourth-box div.eth-content{
+        display: block;
+    }
+    .fourth-box p.table-txt{
+        margin-left: 0vh !important;
+    }
+    .fourth-box div.table-head{
+        display: block;
+    }
+    .fourth-box div.table-head p.heading{
+        display: none;
+    }
+    .fourth-box div.eth-content{
+        border: solid #8c8e8d 2px !important;
+        padding: 4vh;
+        margin-top: 5vh;
+        width: 40vh;
+    }
+    .fourth-box p.table-txt.table1{
+        margin-top: 7vh !important;
+        margin-right: 20vh;
+    }
+}
+.card6{
+    border: solid rgb(137, 137, 137) 1px;
+    margin-top: 5vh;
+    width: 80vh;
+}
+.earn-left-box{
+    margin-left: 20vh;
+}
+.earn-right-box{
+    margin-left: 7vh;
+}
+.card7{
+    border: solid rgb(137, 137, 137) 1px;
+    margin-top: 5vh;
+    width: 80vh;
+}
+.earn-box2{
+    margin-bottom: 5vh;
+}
+@media screen and (max-width:600px)
+{
+    .earn-box1 div.earn-right-left{
+        display: block !important;
+    }
+    .earn-right-left div.earn-left-box{
+        margin-left: 1em;
+    }
+    .earn-right-left div.earn-right-box{
+        margin-left: 1em;
+    }
+    .earn-box1 div.card6{
+        width:65vh;
+    }
+    .earn-box1 div.box-text{
+        margin-left: 1em;
+    }
+    .earn-box2  div.head-txt{
+        margin-top: 270vh;
+    }
+    .vest-left{
+        display: block !important;
+        margin-left: 1em !important;
+    }
+    .vest-left div.card7{
+        width: 65vh;
+    }
+    .vest-left div.card7.vest-card2{
+        margin-left: 0 !important;
+    }
+    .earn-box2{
+        margin-bottom: 5vh !important;
+    }
+}
+@media screen and (max-width:800px)
+{
+    div.footer{
+        height:20em !important;
+    }
+    .footer div.link-logos{
+        display: flex !important;
+        margin-left: 8em;
+    }
+    .footer div.terms{
+        margin-left: 1em;
+        display:block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:800px){
+    .earn-box1 div.earn-right-left{
+        display: block !important;
+    }
+    .earn-right-left div.earn-left-box{
+        margin-left: 2em;
+    }
+    .earn-right-left div.earn-right-box{
+        margin-left: 2em;
+    }
+    .earn-box2  div.head-txt{
+        margin-top: 270vh;
+    }
+    .earn-box1 div.box-text{
+        margin-left: 2em;
+    }
+    .vest-left{
+        display: block !important;
+        margin-left: 1em !important;
+    }
+    .vest-left div.card7{
+        width: 80vh;
+        margin-left: 2em !important;
+    }
+    .vest-left div.card7.vest-card2{
+        margin-left: 2em !important;
+    }
+    .earn-box2{
+        margin-bottom: 5vh !important;
+    }
+}
+@media screen and (max-width:800px)
+{
+    div.content-section{
+        margin-left: 6em !important;
+    }
+    .content-section div.box-content{
+        display: block;
+    }
+    div.box-content div.card3{
+        margin-top: 2em;
+        margin-left: 0 !important;
+        width: 30em;
+    }
+    div.content-section{
+        margin-bottom: 45em !important;
+    }
+    .content-section div.section-txt p{
+        margin-top: 100vh !important;
+    }
+}
+@media screen and (max-width:800px) {
+    .main{
+        margin-bottom: 80vh;
+    }
+    div.section{
+        display:block !important;
+    }
+    .section div.card2{
+        margin-left: 0 !important;
+    }
+}
+@media screen and (max-width:800px)
+{
+    div.card1
+    {
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+    div.sub-main{
+        display: block;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .first-box div.first-section{
+        display: block !important;
+    }
+    .first-section div.card4{
+        width:35em;
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:800px){
+    .second-box div.first-section{
+        display: block !important;
+    }
+    .second-box div.first-section div.second-card{
+        width:20em !important;
+    }
+    .second-card div.first-content div.right-left{
+        display: block !important;
+    }
+    .second-card div.first-content div.right-left img{
+        height:20vh;
+        margin-left: 5em !important;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .fourth-box div.box-head{
+        display: none;
+    }
+    .fourth-box{
+        border: none;
+        height: 180vh !important;
+        margin-left: 8vh !important;
+        margin-top: 0 !important;
+    }
+    .fourth-box hr{
+        display: none;
+    }
+    .fourth-box div.eth-content{
+        display: block;
+    }
+    .fourth-box p.table-txt{
+        margin-left: 0vh !important;
+    }
+    .fourth-box div.table-head{
+        display: block;
+    }
+    .fourth-box div.table-head p.heading{
+        display: none;
+    }
+    .fourth-box div.eth-content{
+        border: solid #8c8e8d 2px !important;
+        padding: 4vh;
+        margin-top: 5vh;
+        width: 60vh;
+    }
+    .fourth-box p.table-txt.table1{
+        margin-top: 7vh !important;
+        margin-right: 30vh;
+    }
+}
+.nav-item1:hover{
+    color: white;
+}
